@@ -20,7 +20,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix --quiet"
+      "eslint --fix --quiet",
+      "prettier --write"
     ]
   },
   "dependencies": {
