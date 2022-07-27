@@ -49,7 +49,18 @@ $ git clone https://github.com/kitamuraDev/vite-react-ts-starter.git
 $ cd vite-react-ts-starter
 ```
 
-3. Install dependencies
+3. Rewrite git information
+
+```bash
+$ rm -rf .git
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git remote add origin https://github.com/user/repo.git
+$ git push -u origin main
+```
+
+4. Install dependencies
 
 ```bash
 $ yarn
@@ -59,33 +70,22 @@ or
 $ yarn install
 ```
 
-4. Launch application
+5. Launch application
 
 ```bash
 $ yarn dev
 ```
 
-5. Build application
+6. Build application
 
 ```bash
 $ yarn build
 ```
 
-6. Preview build results
+7. Preview build results
 
 ```bash
 $ yarn preview
-```
-
-7. Rewrite git information
-
-```bash
-$ rm -rf .git
-$ git init
-$ git add .
-$ git commit -m "Initial commit"
-$ git remote add origin https://github.com/user/repo.git
-$ git push -u origin main
 ```
 
 # About Git-Hooks
